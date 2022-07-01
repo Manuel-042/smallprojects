@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+   
+</head>
+<body>
+    <div class="game-header">
+        <h1 class="big-heading">Rock, Paper, Scissors</h1>
+    </div>
+
+    <div class="details">
+        <p>Welcome, Do you wish to play?</p>
+        <p>Click the button on the top right for help</p>
+        <p>Win 5 rounds to win the game</p>
+    </div>
+
+    <button class="help">HELP</button>
+
+    <div class="game-area">
+        <div class="title">
+            <h3>Player against Computer</h3>
+        </div>
+
+        <div class="box">  
+            <div class="player-box">
+                <p class="score-board">Player wins = <span class="player-score">0</span></p>
+                <p class="player-selection">Player chooses: <span class="player-select"></span></p>
+                
+            </div>
+
+            <div class="computer-box">
+                <p class="score-board">computer wins = <span class="computer-score">0</span></p>
+                <p class="computer-selection">Computer chooses: <span class="computer-select"></span></p>
+            </div>  
+        </div>
+
+        <div class="end">
+            <h3>Result: <span class="result"></span></h3>
+        </div>
+
+       
+    </div>
+
+    <div class="options">
+        <button class="game-buttons">Rock</button>
+        <button class="game-buttons">Paper</button>
+        <button class="game-buttons">Scissors</button>  
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
